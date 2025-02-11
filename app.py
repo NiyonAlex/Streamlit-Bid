@@ -3,7 +3,7 @@ import pymongo
 import pandas as pd
 
 # MongoDB connection
-client = pymongo.MongoClient("mongodb+srv://alexisniyonkuru1984:27QTKU1WksDOkpCe@cluster0.9wl5s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = pymongo.MongoClient("mongodb+srv://alexisniyonkuru1984:<DNPassord>@cluster0.9wl5s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client['job_data']  # Database name
 collection = db['job_listings']  # Collection name
 
